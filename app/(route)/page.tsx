@@ -1,11 +1,15 @@
+import BookList from "@/components/BookList"
+import BookOverview from "@/components/BookOverview"
 import { Button } from "@/components/ui/button"
 
-const page = () => {
+const Home = () => {
   return (
     <>
-      <Button>Click me</Button>
+      <BookOverview />
+
+      <BookList />
     </>
   )
 }
 
-export default page
+export default Home
