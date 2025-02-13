@@ -8,7 +8,7 @@ export const HomeLayout = ({ children }: LayoutProps) => {
     <SidebarProvider>
         <div className='w-full'>
             <HomeNavbar />    
-            <div>
+            <div className='flex min-h-screen pt-[4rem]'>
                 { children }
             </div>
         </div>
